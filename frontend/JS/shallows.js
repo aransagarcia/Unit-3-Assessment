@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     loadShallowsSightings();
-
+    let user = document.querySelector('#allUsers');
+    user.addEventListener('change', userSelected)
 
 });
 

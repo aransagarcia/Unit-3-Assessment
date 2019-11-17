@@ -1,0 +1,8 @@
+body{
+    background-image: url("https://ak9.picdn.net/shutterstock/videos/18953939/thumb/1.jpg");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
