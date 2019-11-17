@@ -6,8 +6,13 @@ router.get('/all', async (req, res) => {
     console.log('running got all sightings');
 
     try {
-        let sightings = await db.any('SELECT * FROM sightings')
-        console.log('got all sightings!')
+        let sightings = await db.any(
+        `SELECT * FROM sightings 
+        JOIN researchers ON researchers.id = sightings.researcher_id 
+        JOIN species ON species.id = sightings.species_id 
+        JOIN habitats ON habitats.id = sightings.habitat_id
+        ORDER BY sightings`)
+        console.log('got all sightings!' , sightings)
         res.json({
             payload: sightings,
             message: "Retrieved all the sightings"

@@ -13,6 +13,7 @@ app.use(express.urlencoded({
 app.use(bodyParser.json());
 app.use(express.json());
 
+app.use(cors());
 
 
 const researcherRouter = require('./routes/researchers');

@@ -5,7 +5,7 @@ CREATE DATABASE marinebiology;
 
 CREATE TABLE researchers (
     id SERIAL PRIMARY KEY, 
-    name VARCHAR, 
+    researcherName VARCHAR, 
     job_title VARCHAR
 );
 
@@ -37,7 +37,7 @@ CREATE TABLE sightings (
 );
 
 
- INSERT INTO researchers(name, job_title) VALUES
+ INSERT INTO researchers(researcherName, job_title) VALUES
  ('Mariana Aleta', 'Project Lead'),
  ('Javed', 'Senior Field Researcher'),
  ('Carolina', 'Field Researcher'),
