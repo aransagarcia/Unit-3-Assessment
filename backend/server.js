@@ -17,14 +17,15 @@ app.use(express.json());
 
 const researcherRouter = require('./routes/researchers');
 const speciesRouter = require('./routes/species');
-// const animalsRouter = require('./routes/animals');
+const animalsRouter = require('./routes/animals');
 // const habitatsRouter = require('./routes/habitats')
 // const sightingsRouter = require('./routes/sightings');
  
 
 
 app.use('/researchers', researcherRouter);
-app.use('/species', speciesRouter)
+app.use('/species', speciesRouter);
+app.use('/animals', animalsRouter);
 
 
 
