@@ -1,0 +1,19 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url("https://fsmedia.imgix.net/e3/19/c5/b0/3c19/4ef5/a953/fe3dc6dcea01/dude.jpeg?rect=0%2C141%2C3000%2C1501&auto=format%2Ccompress&dpr=2&w=650");
+    color: white;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+div{
+    text-align: center;
+}
+
+#button{
+    display: inline-block;
+}
