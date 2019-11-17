@@ -1,0 +1,41 @@
+body{
+    background-image: url("https://ak9.picdn.net/shutterstock/videos/18953939/thumb/1.jpg");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#container{
+justify-items: center;
+text-decoration-color: white;
+}
+
+.sight{
+        display: grid;
+        justify-content: center;
+        padding: .9em;
+        border: black;
+        font-weight: 150; 
+        font-size: 3em;
+        color: white;
+}
+
+div{
+    padding:10px;
+}
+
+#buttons{
+display:flex;
+justify-content: space-evenly;
+background-color: rgba(44, 226, 196, 0.783);
+border-radius: .25em;
+padding-top: 1em;
+padding-bottom: 1em;
+}
+
+#searchBar{
+    height:24px;
+    widows: 500px;
+}
